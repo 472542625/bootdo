@@ -4,7 +4,7 @@
 <mapper namespace="com.bootdo.test1.dao.Test1Dao">
 
 	<select id="get" resultType="com.bootdo.test1.domain.Test1DO">
-		select `id`,`name` from test1 where id = #{value}
+		select id,name from test1 where id = #{value}
 	</select>
 
 	<select id="list" resultType="com.bootdo.test1.domain.Test1DO">
